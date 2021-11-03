@@ -8,7 +8,7 @@ int main() // Обязательная функия main
     const int a = 10; // Целая константа
     int b, c;
     c = 20;
-    cin >> b; // Ввод b
+    b = a * 2; // Присваивание b
     cout << "Вывод:" << endl;
     cout << a << endl;
     cout << b << endl;
