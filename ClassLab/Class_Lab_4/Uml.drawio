@@ -1,26 +1,29 @@
 <mxfile host="65bd71144e">
     <diagram id="SQz-jW7jYEupffBCN8sf" name="Страница 1">
-        <mxGraphModel dx="1374" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="236" dy="172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="Pair" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" vertex="1" parent="1">
+                <mxCell id="4" value="Pair" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" parent="1" vertex="1">
                     <mxGeometry x="210" y="250" width="380" height="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="# first : int&#10;# second : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4">
+                <mxCell id="5" value="# first : int&#10;# second : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="4" vertex="1">
                     <mxGeometry y="30" width="380" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="+ Pair()&#10;+ Pair (f : int, s : int)&#10;+ Pair(tmp : Pair&amp;)&#10;+ setFirst(f : int) : void&#10;+ setSecond(s : int) : void&#10;+ getFirst() : int&#10;+ getSecond() : int&#10;+ operator=(p : Pair&amp;) : Pair&amp;&#10;+ operator*(tmp : Pair) : Pair&#10;+ operator&gt;&gt;(in : istream&amp;, tmp : Pair&amp;) : friend istream&amp;&#10;+ operator&lt;&lt;(out : ostream&amp;, tmp : Pair&amp;) : friend ostream&amp;&#10;+ ~Pair() : virtual" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="4">
+                <mxCell id="6" value="+ Pair()&#10;+ Pair (f : int, s : int)&#10;+ Pair(tmp : Pair&amp;)&#10;+ setFirst(f : int) : void&#10;+ setSecond(s : int) : void&#10;+ getFirst() : int&#10;+ getSecond() : int&#10;+ operator=(p : Pair&amp;) : Pair&amp;&#10;+ operator*(tmp : Pair) : Pair&#10;+ operator&gt;&gt;(in : istream&amp;, tmp : Pair&amp;) : friend istream&amp;&#10;+ operator&lt;&lt;(out : ostream&amp;, tmp : Pair&amp;) : friend ostream&amp;&#10;+ ~Pair() : virtual" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="4" vertex="1">
                     <mxGeometry y="90" width="380" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;shape=flexArrow;" edge="1" parent="1" source="14" target="6">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="Rect" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" vertex="1" parent="1">
+                <mxCell id="14" value="Rect" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" parent="1" vertex="1">
                     <mxGeometry x="210" y="670" width="380" height="280" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="+ P() : int&#10;+ S() : int&#10;+ Rect()&#10;+ Rect(f : int, s : int)&#10;+ Rect(tmp : Rect&amp;)&#10;+ setFirst(f : int) : void&#10;+ setSecond(s : int) : void&#10;+ getFirst() : int&#10;+ getSecond() : int&#10;+ operator=(p : Rect&amp;) : Rect&amp;&#10;+ operator*(tmp : Rect) : Rect&#10;+ operator&gt;&gt;(in : istream&amp;, tmp : Rect&amp;) : friend istream&amp;&#10;+ operator&lt;&lt;(out : ostream&amp;, tmp : Rect&amp;) : friend ostream&amp;&#10;+ ~Rect()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="14">
+                <mxCell id="16" value="+ P() : int&#10;+ S() : int&#10;+ Rect()&#10;+ Rect(f : int, s : int)&#10;+ Rect(tmp : Rect&amp;)&#10;+ setFirst(f : int) : void&#10;+ setSecond(s : int) : void&#10;+ getFirst() : int&#10;+ getSecond() : int&#10;+ operator=(p : Rect&amp;) : Rect&amp;&#10;+ operator*(tmp : Rect) : Rect&#10;+ operator&gt;&gt;(in : istream&amp;, tmp : Rect&amp;) : friend istream&amp;&#10;+ operator&lt;&lt;(out : ostream&amp;, tmp : Rect&amp;) : friend ostream&amp;&#10;+ ~Rect()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="14" vertex="1">
                     <mxGeometry y="30" width="380" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="520" as="sourcePoint"/>
+                        <mxPoint x="490" y="520" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
