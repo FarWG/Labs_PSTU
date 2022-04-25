@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="SQz-jW7jYEupffBCN8sf" name="Страница 1">
+        <mxGraphModel dx="532" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="Iterator" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="250" width="380" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="- elem : int*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="4" vertex="1">
+                    <mxGeometry y="30" width="380" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="+ Iterator()&#10;+ Iterator (tmp : const Iterator&amp;)&#10;+ operator==(tmp : const Iterator&amp;) : bool&#10;+ operator!=(tmp : const Iterator&amp;) : bool&#10;+ operator++() : void&#10;+ operator--() : void&#10;+ operator*() : int&amp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="4" vertex="1">
+                    <mxGeometry y="90" width="380" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="vector" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="250" width="380" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="- size : int&#10;- cur : int&amp;&#10;- beg : Iterator&#10;- end : Iterator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="26">
+                    <mxGeometry y="30" width="380" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="+ Iterator()&#10;+ Iterator (tmp : const Iterator&amp;)&#10;+ operator==(tmp : const Iterator&amp;) : bool&#10;+ operator!=(tmp : const Iterator&amp;) : bool&#10;+ operator++() : void&#10;+ operator--() : void&#10;+ operator*() : int&amp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="26">
+                    <mxGeometry y="130" width="380" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
